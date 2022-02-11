@@ -20,3 +20,11 @@ radio.setGroup(1)
 strip = neopixel.create(DigitalPin.P0, 300, NeoPixelMode.RGB)
 strip.clear()
 cotxe1 = 0
+cotxe2 = 0
+basic.showLeds(`
+    . . . . .
+    . . . . .
+    . . # . .
+    . . . . .
+    . . . . .
+    `)
